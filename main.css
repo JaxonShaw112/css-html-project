@@ -1,0 +1,121 @@
+h1, h2, p, li, h3 {
+    color: white;
+}
+a:link { 
+    text-decoration: none; 
+    color: white;
+} 
+a:visited { 
+    text-decoration: none; 
+    color: blue;
+} 
+a:hover { 
+    text-decoration: none; 
+    color: blue;
+} 
+a:active { 
+    text-decoration: none; 
+    color: blue;
+}
+li {
+    list-style-type: none;
+}
+.nav {
+    display: flex;
+    padding: 0 40px;
+    margin-top: -10px;
+    font-size: 20px;
+    justify-content: space-between;
+}
+.nav p {
+    justify-self: flex-start;
+}.nav li
+{
+    display: inline-block;
+    margin: 0 5px;
+}
+.navbar {
+    margin: -10px 40px 10px;
+}
+img {
+    height: 300px;
+    width: 600px;
+    float: left;
+}
+.im2 {
+    float: right;
+}
+body {
+    background-color: black;
+}
+h1 {
+    font-size: 120px;
+}
+h2 {
+    font-size: 50px;
+}
+.title {
+    display: flex;
+    justify-content:center;
+    font-family: "Ojuju", sans-serif;
+}
+.titletop {
+    padding-top: 150px;
+    font-family: "Roboto", sans-serif;
+}
+.titlebar {
+    display: flex;
+    width: 600px;
+    margin: -70px auto -20px auto;
+}
+.main-bg {
+    background-image: url("./images/green-vegetables-on-brown-wooden-chopping-board-3952047.jpg");
+    background-color: black;
+}
+.recipe1 {
+    display: flex;
+    background-color: black;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+.recipe2 {
+    display: flex;
+    background-color: rgb(17, 17, 17);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+.recipe3 {
+    display: flex;
+    background-color: rgb(31, 31, 31);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+.recipe1 p {
+    width: 400px;
+    justify-self: center;
+    margin-top: -25px;
+}
+.recipe2 p {
+    width: 400px;
+    justify-self: center;
+    margin-top: -25px;
+}
+.recipe3 p {
+    width: 400px;
+    justify-self: center;
+    margin-top: -25px;
+}
+.recipe1, .recipe2, .recipe3 p {
+    font-size: 20px;
+}
+h3 {
+    font-size: 40px;
+    width: 400px;
+    
+}
